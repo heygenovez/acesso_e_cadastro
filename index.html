@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Lucas Genovez">
+    <meta name="description" content="Front-End Developer Lucas Genovez">
+    <meta name="keywords" content="sites, web, desenvolvimento">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+    <title>Acesso e Cadastro</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <div class="signin">
+          <form action="#" class="form-sign-in">
+            <h1>Acesso</h1>
+            <input type="text" placeholder="Username" />
+            <input type="password" placeholder="Password" />
+            <a href="#">Esqueci minha senha!</a>
+            <button class="btn btn-form">Acessar</button>
+          </form>
+        </div>
+
+        <div class="signup">
+          <form action="" class="form-sign-up">
+            <h1>Cadastro</h1>
+            <input type="text" placeholder="Username" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button class="btn btn-form">Cadastrar</button>
+          </form>
+        </div>
+      </div>
+      <div class="overlay">
+        <div class="overlay-panel overlay-signin">
+          <h1>
+            Bem-vindo de volta!
+          </h1>
+          <span>
+            Para se manter conectado, faça login com suas informações pessoais!
+          </span>
+          <button class="btn btn-overlay" onclick="togglePage()">
+            Sign In
+          </button>
+        </div>
+        <div class="overlay-panel overlay-signup">
+          <h1>
+            Hello, Friend!
+          </h1>
+          <span>
+            Enter your personal details and start journey with us
+          </span>
+          <button class="btn btn-overlay" onclick="togglePage()">
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
